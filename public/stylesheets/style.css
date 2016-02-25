@@ -154,7 +154,7 @@ ul#slider4 h4 {
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 }
 .cl-effect-16 a::before {
-	color:#ff8dae;
+	color:#808080;
 	content: attr(data-hover);
 	position: absolute;
 	opacity: 0;
@@ -202,7 +202,7 @@ nav a:focus {
   margin: 0 auto;
 }
 .top-menu ul li a:hover,.top-menu ul li a.active{
-	color:#ff8dae;
+	color:#808080;
 }
 /*-- sticky-nav --*/
 @media screen and (max-width:991px) {
@@ -479,7 +479,8 @@ nav a:focus {
     -ms-background-size: cover;
     position: relative;
     z-index: 99;
-    min-height:630px;
+    min-height: 500px;
+    top: 70px;
 }
 /*--services--*/
 .welcome {
@@ -509,7 +510,7 @@ nav a:focus {
     margin-top: 0.7em;
 }
 .top-grid h4 {
-    color: #ff8dae;
+    color: #808080;
     font-weight: bold;
       margin-top: 0.7em;
     font-size: 2em;
@@ -543,7 +544,7 @@ nav a:focus {
     text-align: center;
 }
 .staff2 h3 a{
-	color:#ff8dae;
+	color:#808080;
 	font-size: 1.5em;
 }
  .staff2 h3 a:hover{
@@ -617,7 +618,7 @@ p.popup_desc{
     -ms-border-radius: 50%;
 }
 .info:hover {
-   background: #ff8dae;
+   background: #808080;
 }
 .glyphicon {
     position: relative;
@@ -717,7 +718,7 @@ h3.tittle.pack {
 }
 .price {
         bottom: 0;
-    background-color: #ff8dae;
+    background-color: #808080;
     font-size: 1.35em;
     font-weight: 500;
     color: #fff;
@@ -758,7 +759,7 @@ ul.list-default {
     padding-bottom: 1em;
 }
 .package h5, .package1 h5, .package2 h5 {
-       color: #FF8DAE;
+       color: #808080;
     font-size: 1.6em;
     font-weight: bold;
 }
@@ -844,7 +845,7 @@ h3.tittle {
 }
 /*--news--*/
 a.news {
-    color: #FF8DAE;
+    color: #808080;
     font-size: 1.6em;
     font-weight: bold;
 	font-family: 'Merienda-Regular';
@@ -855,7 +856,7 @@ a.news {
 	color:#777;
 	}
 	a.post_date {
-    color: #FF8DAE;
+    color: #808080;
 	font-size:0.9em;
 }
 a.post_date:hover{
@@ -869,7 +870,7 @@ a.post_date:hover{
     margin-left: 20px;
 }
 span.likePost i,span.commentPost i {
-    color: #FF8DAE;
+    color: #808080;
 	margin-right:0.5em;
 }
 div#news {
@@ -893,7 +894,7 @@ a.news:hover,a.icon-comment-1:hover,a.icon-heart:hover,span.likePost i:hover,spa
     background-color: #293364;
 }
 h3.tittle.pro {
-    color: #FF8DAE;
+    color: #808080;
 	margin-bottom:0.5em;
 }
 .products p {
@@ -903,7 +904,7 @@ h3.tittle.pro {
 }
 /*--testimonials--*/
 .testimonials {
-    background:#ff8dae;
+    background:#808080;
     text-align: center;
     padding: 5em 0 8em 0;
 }
@@ -979,7 +980,7 @@ p.mail {
     margin: 0.5em 0 0 3em;
 }
 p.mail a:hover {
-    color:#ff8dae;
+    color:#808080;
 	}
 i.icon {
     width: 40px;
@@ -1001,7 +1002,7 @@ i.icon {
     margin-top: 1em;
 }
 .con-text h3 {
-   color: #ff8dae;
+   color: #808080;
     font-weight: bold;
     font-size: 1.5em;
 }
@@ -1061,10 +1062,10 @@ form input[type="submit"] {
 	-o-border-radius: 0.2em;
 }
 form input[type="submit"]:hover{
-  background:#ff8dae;
+  background:#808080;
 }
 form input[type="reset"] {
-    background:#ff8dae;
+    background:#808080;
     outline: none;
     font-size: 1em;
     margin: 16px 0px;
@@ -1098,7 +1099,7 @@ form input[type="reset"]:hover {
 }
 .copy {
       text-align: center;
-    background: #ff8dae;
+    background: #808080;
     padding: 4em 1em;
   }
 .copy p {
