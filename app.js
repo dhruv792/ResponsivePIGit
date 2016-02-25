@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var fs = require('fs');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -24,6 +25,19 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+
+//posting form's data to 
+app.post('/', function (req, res) {
+
+    fs.appendFile("test.csv", req.body.cust_name+", "+req.body.cust_email+", "+req.body.cust_phone+", "+req.body.cust_msg+"\n", function(err) {
+        if(err) {
+            return console.log(err);
+        }
+
+        console.log("The file was saved!");
+        res.end("data saved");
+    });
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

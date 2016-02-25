@@ -19,6 +19,7 @@
 <script type="text/javascript" src="javascripts/move-top.js"></script>
 <script type="text/javascript" src="javascripts/easing.js"></script>
 <script src="javascripts/modernizr.custom.97074.js"></script>
+<script src="javascripts/form.js"></script>
 <!--/script-->
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
@@ -495,19 +496,22 @@
 				   <h3 class="tittle">Contact Us</h3>
 					 <div class="col-md-6 box">
                           <!--contact-form-->
-						<form>
-							<p class="your-para">Your Name :</p>
-							<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+						<form method="POST" action="/">
+							<p class="your-para">Your Full Name :</p>
+							<input name="cust_name" type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
 							<p class="your-para">Your Mail :</p>
-							<input type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
-							<p class="your-para">Your Message :</p>
-							<textarea cols="77" rows="6" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
+							<input name="cust_email" type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+							<p class="your-para">Your Phone number :</p>
+							<input name="cust_phone" type="text" value="" onfocus="this.value='';" onblur="if (this.value == '') {this.value ='';}">
+							<p class="your-para">Your Requirements :</p>
+							<textarea name="cust_msg" cols="77" rows="6" onfocus="this.value='';" onblur="if (this.value == '') {this.value = '';}"></textarea>
 
                                 <ul class="actions">
 									<li><input type="submit" class="style1" value="Send" /></li>
 									<li><input type="reset" class="style2" value="Reset" /></li>
 								</ul>			
 						   </form>
+						   <h3 class="form_submit"></h3>
 				        </div>
 						 <div class="col-md-6 contact-info">
 						       <h6>Lorem ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor.</h6>
