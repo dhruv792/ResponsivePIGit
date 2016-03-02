@@ -10,7 +10,8 @@
   position: fixed;
   background: #0b0b0b;
   opacity: 0.9;
-  filter: alpha(opacity=80); }
+  filter: alpha(opacity=80);
+}
 
 .mfp-wrap {
   top: 0;
